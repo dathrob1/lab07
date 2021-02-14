@@ -7,9 +7,10 @@ html,body,cont{
     justify-content: center;
 }
 .clock{
+
     width: 600px;
     height: 600px;
-    background: url(../image/clock.jpg);
+    background: url(../image/images.jpg);
     background-repeat: no-repeat;
 }
 .hands{
