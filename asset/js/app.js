@@ -4,3 +4,5 @@ document.addEventListener("DOMContentLoaded", () => {
     loadPost();
     loadPosts();
 });
+var elem1=document.getElementById('span');
+var 

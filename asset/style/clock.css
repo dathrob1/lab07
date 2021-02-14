@@ -1,0 +1,30 @@
+html,body,cont{
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    width: 600px;
+    height: 600px;
+    background: url(../image/clock.jpg);
+    background-repeat: no-repeat;
+}
+.hands{
+    position: absolute;
+    top:  0;
+    left: 20 ;
+     
+}
+.clock:after {
+	position: absolute;
+	content: '';
+	background: #000;
+	width: 30px;
+	height: 30px;
+	top: 30%;
+	left: 42.5%;
+	transform: translateX(-50%) translateY(-50%);
+	border-radius: 50%;}
